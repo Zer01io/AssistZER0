@@ -77,6 +77,21 @@ This reference sample implements a simple but functional client for the `Google 
 
     googlesamples-assistant-hotword
 
+googlesamples-assistant-selfcheck
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This tool emits a self-diagnostic report about the runtime, audio devices,
+default audio configuration, credentials path, and reflective prompts
+covering conversational tone and learning notes.
+
+- Run the self-check report::
+
+    googlesamples-assistant-selfcheck
+
+- Emit JSON output for automation::
+
+    googlesamples-assistant-selfcheck --json
+
 For Maintainers
 ---------------
 
@@ -116,4 +131,3 @@ the License.
 .. _Google Assistant gRPC API: https://developers.google.com/assistant/sdk/reference/rpc
 .. _Google Assistant library: https://developers.google.com/assistant/sdk/reference/library/python
 .. _GitHub releases page: https://github.com/googlesamples/assistant-sdk-python/releases
-

@@ -62,6 +62,8 @@ setup(
             '=googlesamples.assistant.grpc.pushtotalk:main [samples]',
             'googlesamples-assistant-hotword'
             '=googlesamples.assistant.library.hotword:main [samples]',
+            'googlesamples-assistant-selfcheck'
+            '=googlesamples.assistant.diagnostics:main [samples]',
         ],
     },
     license='Apache 2.0',
