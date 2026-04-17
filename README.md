@@ -14,6 +14,7 @@ To get started, see the following developer guides:
 [Google Assistant SDK][google-assistant-sdk]
   - [googlesamples/assistant/grpc](google-assistant-sdk/googlesamples/assistant/grpc): reference sample for the [Google Assistant gRPC API][google-assistant-api]
   - [googlesamples/assistant/library](google-assistant-sdk/googlesamples/assistant/library): reference sample for the [Google Assistant library][google-assistant-library]
+- [dynamic_network_scanner](dynamic_network_scanner): async dynamic network scanner utility with host discovery, adaptive ordering, banner grabbing, and exportable reports
 
 ## Contributing
 
